@@ -105,6 +105,10 @@ new Chart(ctx, {
         // add margin of text when position is `outside` or `border`
         // default is 2
         textMargin: 4
+          
+        // available only when position = 'outside'
+        // if value = true show a callout arrow to label
+        segment: false,
       }
     }
   }
